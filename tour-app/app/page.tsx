@@ -7,8 +7,8 @@ import getListings, {
 } from "@/app/actions/getListings";
 import getCurrentUser from "@/app/actions/getCurrentUser";
 import ClientOnly from "./components/ClientOnly";
-// Force dynamic rendering for the page
-export const dynamic = 'force-dynamic'; // Ensures this page is always rendered on the server
+// // Force dynamic rendering for the page
+// export const dynamic = 'force-dynamic'; // Ensures this page is always rendered on the server
 
 interface HomeProps {
   searchParams: IListingsParams
